@@ -12,7 +12,7 @@ jobs:
       - uses: aws-github-ops/aws-issue-triage-manager@main
         with:
           parameters: >-
-            '[
+            [
              {"area":"s3", "keywords": ["s3", "bucket"], "labels": ["s3"]},
              {"area": "ec2", "keywords": ["ec2", "instance"], "labels": ["ec2"]}
              {"area": "acm", "keywords": ["acm"], "labels": ["acm"]},
@@ -122,6 +122,6 @@ jobs:
              {"area": "v2", "keywords": ["v2"], "labels": ["v2"]},
              {"area": "v3", "keywords": ["v3"], "labels": ["v3"]},
              {"area": "documentation", "keywords": ["documentation", "typo"], "labels": ["documentation"]}            
-             ]'
+             ]
           github-token: "${{ secrets.GITHUB_TOKEN }}"
           excluded-expressions: "[ TypeScript | Java | Python ]"
