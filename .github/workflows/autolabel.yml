@@ -121,7 +121,7 @@ jobs:
              {"area": "v1", "keywords": ["v1"], "labels": ["v1"]},
              {"area": "v2", "keywords": ["v2"], "labels": ["v2"]},
              {"area": "v3", "keywords": ["v3"], "labels": ["v3"]},
-             {"area": "documentation", "keywords": ["documentation", "typo"], "labels": ["documentation"]}            
+             {"area": "documentation", "keywords": ["documentation", "typo"], "labels": ["documentation"]},
              ]
-          # github-token: "${{ secrets.GITHUB_TOKEN }}"
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
           excluded-expressions: "[ TypeScript | Java | Python ]"
