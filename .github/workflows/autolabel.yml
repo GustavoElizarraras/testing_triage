@@ -11,10 +11,10 @@ jobs:
     steps:
       - uses: aws-github-ops/aws-issue-triage-manager@main
         with:
-          parameters: >-
+          parameters: >
             [
              {"area":"s3", "keywords": ["s3", "bucket"], "labels": ["s3"]},
-             {"area": "ec2", "keywords": ["ec2", "instance"], "labels": ["ec2"]}
+             {"area": "ec2", "keywords": ["ec2", "instance"], "labels": ["ec2"]},
              {"area": "acm", "keywords": ["acm"], "labels": ["acm"]},
              {"area": "amplify", "keywords": ["amplify"], "labels": ["amplify"]},
              {"area": "apigateway", "keywords": ["apigateway"], "labels": ["apigateway"]},
