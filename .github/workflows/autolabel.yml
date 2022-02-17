@@ -123,5 +123,5 @@ jobs:
              {"area": "v3", "keywords": ["v3"], "labels": ["v3"]},
              {"area": "documentation", "keywords": ["documentation", "typo"], "labels": ["documentation"]}            
              ]
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
+          # github-token: "${{ secrets.GITHUB_TOKEN }}"
           excluded-expressions: "[ TypeScript | Java | Python ]"
